@@ -60,13 +60,6 @@ const loading = ref(true)
 </AppLoader>
 ```
 
-## Current app integration
-
-`src/components/loader/LoadingOverlay.vue` is the adapter for the current project.
-It reads `globalLoading` from `src/stores/loading.js`.
-
-This lets you reuse `AppLoader.vue` elsewhere without carrying the store logic.
-
 ## Overlay behavior
 
 - `showOverlay`: shows or hides the background overlay layer
